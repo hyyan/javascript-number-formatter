@@ -70,8 +70,6 @@ And a jsFiddle was created to aid in testing: https://jsfiddle.net/Mottie/t2etyo
 
 ## Recent Changes
 
-View the [complete change log here](https://github.com/Mottie/javascript-number-formatter/wiki).
-
 ### v2.0.0 (3/13/2018)
 
 * [Implement different Handling for Negative "-" and Positive "+" Signs](https://github.com/Mottie/javascript-number-formatter/issues/9)
