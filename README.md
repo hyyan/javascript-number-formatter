@@ -70,6 +70,10 @@ And a jsFiddle was created to aid in testing: https://jsfiddle.net/Mottie/t2etyo
 
 ## Recent Changes
 
+### v2.0.1 (4/19/2018)
+
+* Fix the lib throws an error on null and undefined values
+
 ### v2.0.0 (3/13/2018)
 
 * [Implement different Handling for Negative "-" and Positive "+" Signs](https://github.com/Mottie/javascript-number-formatter/issues/9)

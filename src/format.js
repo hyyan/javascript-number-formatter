@@ -12,9 +12,13 @@
 
 	return function (mask, value) {
 		'use strict';
-		if (!mask || isNaN(+value)) {
+		if (!mask) {
 			return value; // return as it is.
-		}
+		} 
+
+		if(!value && value !== 0) {
+			return value; // return as it is.
+		} 
 
 		var isNegative, result, decimal, group, posLeadZero, posTrailZero, posSeparator,
 			part, szSep, integer, maskHasNegativeSign, maskHasPositiveSign,
